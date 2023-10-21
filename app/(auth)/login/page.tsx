@@ -21,7 +21,7 @@ const page = () => {
                 if (callback?.ok) {
                     toast.success('Entrando...')
                     refresh()
-                    push('/')
+                    push('/dashboard')
                 }
                 if (callback?.error) {
                     toast.error(`${callback?.error}`)
